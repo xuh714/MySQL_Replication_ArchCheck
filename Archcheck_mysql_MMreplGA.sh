@@ -1,4 +1,5 @@
 #!/bin/bash
+# 2020-05-20 MySQL master slave replication architecture detection Script version 1.0 (Author : xuh)
 unset MAILCHECK
 ker=`uname`
 if [[ $ker = "Linux" ]]; then
