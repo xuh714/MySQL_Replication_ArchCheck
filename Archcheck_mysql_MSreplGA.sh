@@ -1,4 +1,5 @@
 #!/bin/bash
+# 2020-05-20 MySQL master slave replication architecture detection Script version 1.0 (Author : xuh)
 unset MAILCHECK
 ker=`uname`
 if [[ $ker = "Linux" ]]; then
@@ -141,4 +142,4 @@ fi
 fi
 echo $stdopt
 test -e $log && rm -f $log
-#./msrepl.sh 192.168.239.51 osmproxy okp@admin123 3305 192.168.239.52 osmproxy okp@admin123 3305
+#./msrepl.sh 192.168.239.51 root Abcd321# 3305 192.168.239.52 root Abcd321# 3305
